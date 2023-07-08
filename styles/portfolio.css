@@ -1,0 +1,37 @@
+body {
+  font-family: "Caveat", cursive;
+  font-family: "Open Sans", sans-serif;
+}
+.title {
+  color: #181818;
+  font-family: Open Sans;
+  font-size: 45px;
+  font-style: normal;
+}
+.txt-color {
+  color: #fd6e0a;
+}
+nav {
+  display: flex;
+}
+nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 30px;
+}
+nav a {
+  color: #474747;
+  text-decoration: none;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+}
