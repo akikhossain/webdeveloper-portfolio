@@ -110,3 +110,15 @@ main {
 .info-title {
   text-align: center;
 }
+.what-i-do {
+  padding: 30px 150px;
+}
+.skilss-container {
+  display: flex;
+}
+.skills {
+}
+.skill-title {
+}
+.skill-description {
+}
