@@ -80,6 +80,10 @@ nav a {
 }
 
 /* main section style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* about section */
 .about {
   padding: 150px;
@@ -98,4 +102,11 @@ nav a {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.info-title {
+  text-align: center;
 }
