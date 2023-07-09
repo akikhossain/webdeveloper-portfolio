@@ -56,7 +56,8 @@ nav a {
   max-width: 585px;
 }
 .banner .profile {
-  width: 500px;
+  width: 800px;
+  height: 700px;
 }
 .banner-greeting {
   font-size: 45px;
@@ -84,6 +85,9 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+main section {
+  margin-top: 130px;
+}
 /* about section */
 .about {
   padding: 150px;
@@ -102,6 +106,7 @@ main {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
+  margin-bottom: 50px;
 }
 .about-info-container {
   display: flex;
@@ -113,12 +118,32 @@ main {
 .what-i-do {
   padding: 30px 150px;
 }
-.skilss-container {
+.skills-container {
   display: flex;
+  gap: 24px;
 }
 .skills {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 .skill-title {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
 }
 .skill-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/* resume section style */
+
+.resume-column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
 }
