@@ -113,8 +113,16 @@ main section {
   display: flex;
   justify-content: space-around;
 }
-.info-title {
+.about-info {
   text-align: center;
+}
+
+.info-title {
+  color: #757575;
+}
+.info-description {
+  color: #000000;
+  font-weight: bold;
 }
 .what-i-do {
   padding: 30px 150px;
