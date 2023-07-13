@@ -214,3 +214,58 @@ textarea {
 .social-links a {
   margin-right: 25px;
 }
+
+/* media query */
+
+@media screen and (max-width: 576px) {
+  .header {
+    background-image: none;
+  }
+  nav,
+  nav > ul,
+  .banner,
+  .skills-container,
+  .resume-container,
+  footer,
+  .about-info-container {
+    flex-direction: column;
+    /* text-align: center; */
+  }
+  footer,
+  .about {
+    padding: 10px;
+  }
+  .footer-column {
+    width: 100%;
+  }
+  .banner .profile {
+    width: 250%;
+    height: 250%;
+  }
+  .banner {
+    padding: 100px;
+  }
+  .btn-primary {
+    margin-bottom: 15px;
+  }
+  nav > ul {
+    gap: 15px;
+  }
+
+  .what-i-do {
+    padding: 20px;
+  }
+  .contact input[type="text"],
+  .contact input[type="email"],
+  textarea {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  footer {
+    padding: 30px;
+  }
+  .btn-primary {
+    margin-bottom: 15px;
+  }
+}
