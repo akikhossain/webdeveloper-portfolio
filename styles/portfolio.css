@@ -214,6 +214,9 @@ textarea {
 .social-links a {
   margin-right: 25px;
 }
+.social-links {
+  text-align: center;
+}
 
 /* media query */
 
